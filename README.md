@@ -1,12 +1,15 @@
 # config_elixir
 
+## Clone
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.9.0
+
+## Configure Your Shell
 
 echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.bash_profile
 
 echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.bash_profile
 
-
+## PLugins
 asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git
 
 asdf plugin add erlang https://github.com/asdf-vm/asdf-erlang.git
@@ -16,6 +19,7 @@ asdf plugin add erlang https://github.com/asdf-vm/asdf-erlang.git
 #asdf list-all erlang
 #asdf list elixir
 
+# Installation
 asdf install erlang 24.2
 
 asdf install elixir 1.13
