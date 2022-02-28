@@ -3,6 +3,9 @@
 ## Super user
 sudo su
 
+##Config
+sudo apt update
+sudo apt install curl
 ## Clone
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.9.0
 
