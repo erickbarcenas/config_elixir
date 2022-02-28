@@ -6,6 +6,9 @@ sudo su
 ##Config
 sudo apt update
 sudo apt install curl
+
+apt-get -y install build-essential autoconf m4 libncurses5-dev libwxgtk3.0-gtk3-dev libgl1-mesa-dev libglu1-mesa-dev libpng-dev libssh-dev unixodbc-dev xsltproc fop libxml2-utils libncurses-dev openjdk-11-jdk
+
 ## Clone
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.9.0
 
