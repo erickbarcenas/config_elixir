@@ -31,11 +31,12 @@ asdf local erlang 24.2
 
 asdf local elixir 1.13
 
+## Use
 elixir -v
-
 iex
-----------------
-Instalar plugins VSCode para Elixir (vscode-elixir, elixir formatter)
+
+
+## VSCode
 
 https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls
 
