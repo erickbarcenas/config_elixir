@@ -2,9 +2,7 @@
 
 
 - Instalar asdf https://github.com/asdf-vm/asdf 
-- 
 - Instalar plugin asdf para erlang https://github.com/asdf-vm/asdf-erlang 
-- 
 - Instalar plugin asdf para elixir https://github.com/asdf-vm/asdf-elixir 
 
 ## Super user
